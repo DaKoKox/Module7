@@ -1,0 +1,33 @@
+.hero {
+    background-color: #fdf1c9;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #212529;
+    color: white;
+    padding: 20px;
+}
